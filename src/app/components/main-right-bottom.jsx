@@ -9,7 +9,7 @@ const MainRightBottom = () => {
 	return (
 		<div className='main__right-bottom'>
 			<h2 className='font-extrabold text-[20px] leading-[1.2] mb-5'>{t('social networks')}</h2>
-			<ul className='main__right-bottomList'>
+			<ul className='main__right-bottomList max-w-[424px] w-full'>
 				<li className='md:mb-[10px] mb-0'>
 					<Link
 						className='flex text-[18px] font-medium leading-[1.33] py-5 px-10 bg-[#F6F7F8] rounded-xl items-center justify-center hover:bg-[#FFC017] cursor-pointer transition duration-200 ease-out hover:ease-in'

@@ -59,22 +59,13 @@ const MainInfo = () => {
 					<Card />
 				</div>
 
-				<Link
-					className='max-w-[613px] inline-block w-full max-h-[352px] h-full relative'
-					href={'https://www.youtube.com/watch?v=Sc_FJckymbc'}
-					target='_blank'>
-					<Image className='main-yotube-img relative' src={'/main-youtube.png'} width={613} height={352} alt='youtube link' />
-					<svg
-						className='absolute left-[40%] top-[40%]'
-						width='98'
-						height='67'
-						viewBox='0 0 98 67'
-						fill='none'
-						xmlns='http://www.w3.org/2000/svg'>
-						<rect opacity='0.8' width='98' height='66.8182' rx='25' fill='#414142' />
-						<path d='M63.8485 34.1515L41.5758 47.0106V21.2923L63.8485 34.1515Z' fill='white' />
-					</svg>
-				</Link>
+				<iframe
+					className='main__youtube'
+					src='https://www.youtube.com/embed/Sc_FJckymbc'
+					title='Sherzod Kayumov | Foydali uchrashuv  #interview #интервью'
+					frameborder='0'
+					allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+					allowfullscreen></iframe>
 
 				<div className='main__info-top'>
 					<CardMain />
