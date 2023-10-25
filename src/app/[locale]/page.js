@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Hero } from '../components';
+import { Footer, Header, Hero, Main } from '../components';
 import { useTranslations } from 'next-intl';
 
 const Page = () => {
@@ -12,7 +12,8 @@ const Page = () => {
 				<Hero />
 			</div>
 
-			{t('title')}
+			<Main />
+			<Footer />
 		</div>
 	);
 };
